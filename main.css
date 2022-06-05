@@ -1,0 +1,38 @@
+h1{
+    margin: 40px;
+    text-align: center;
+}
+
+.drawArea, .controls{
+    width: 1000px;
+    margin: 20px auto;
+    border: 1px solid #a2a2a2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controls{
+    height: 80px; 
+}
+.drawArea{
+    height: 500px;
+}
+.controls button{
+    padding: 7px 20px;
+    margin: 15px;
+    font-size: 35px;
+    background-color: bisque;
+    border: 1px solid #d3d3d3;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+}
+#colorSelectBtn{
+    cursor: default;
+}
+#colorSelectBtn input{
+    cursor: pointer;
+}
+#canvas{
+    border: 1px solid #a2a2a2;
+}
